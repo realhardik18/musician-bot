@@ -97,8 +97,7 @@ async def help(message):
   embedVar.add_field(name="m np", value="Shows The Current Playing Song", inline=False)
   embedVar.add_field(name="m skip", value="Skip The Current Song", inline=False)
   embedVar.add_field(name="m remove [song_index]", value="Removes a song (mention index of song from queue)", inline=False)
-  embedVar.add_field(name="Credits", value = "[Realhardik18](https://realhardik18.github.io/) | [Doodle Anna](https://discord.com/oauth2/authorize?client_id=815923574200074241&permissions=8&scope=bot)", inline=False)
-  embedVar.add_field(name="Add", value="To add this bot in your server click [here](https://discord.com/oauth2/authorize?client_id=834456455225540698&permissions=0&scope=bot)", inline=False)
+  embedVar.add_field(name="Credits", value = "[Realhardik18](https://realhardik18.github.io/)", inline=False)
   await message.channel.send(embed=embedVar)
 
 bot.run(my_secret)
