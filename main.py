@@ -76,7 +76,7 @@ async def np(ctx):
 async def skip(ctx):
     player = music.get_player(guild_id=ctx.guild.id)
     data = await player.skip(force=True)
-    await ctx.send(f"Skipped **{data[0].name}** <:skip:834824011367972875>")
+    await ctx.send(f"Skipped **{data[0].name}** <a:skip:834824011367972875>")
 
 @bot.command()
 async def remove(ctx, index):
